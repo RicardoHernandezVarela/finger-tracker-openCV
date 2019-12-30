@@ -4,7 +4,7 @@ from scipy.spatial import distance as dist
 
 from tools import *
 
-cap = cv2.VideoCapture(0) #Seleccionar la camara web
+cap = cv2.VideoCapture(0) #Seleccionar la camara, 0 camara del equipo, 1 para camera conectada.
 
 im_1 = 0 #Mano extendida
 im_2 = 0 #Mano contraida

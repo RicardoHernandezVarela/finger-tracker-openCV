@@ -3,7 +3,7 @@ import numpy as np
 
 from tools import *
 
-cap = cv2.VideoCapture(0) #Seleccionar la camara web
+cap = cv2.VideoCapture(0) #Seleccionar la camara, 0 camara del equipo, 1 para camera conectada.
 circulos_arr = []
 circulos = []
 trackerType = 'CSRT'
